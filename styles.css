@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    background: url(images/hero.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 200px;
+    background-color: rgb(48, 48, 97);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero p {
+    background-color: rgb(57, 83, 110);
+    color: white;
+    padding: 5px 40px 5px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+.activity-parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities {
+    background-color: rgb(200, 212, 226);
+    padding-bottom: 50px;
+}
+
+.activities h2 {
+    margin: 0 0 50px 0;
+    padding-top: 50px;
+    color: rgb(48, 48, 97);;
+}
+
+
+
+.activity-children img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bold-paragraph {
+    font-weight: bold;
+}
+
+.about-me img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 205, 237);
+    width: 600px;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgb(48, 48, 97);
+}
+
+.about-me-parent {
+    display: flex;
+    justify-content: center;
+}
