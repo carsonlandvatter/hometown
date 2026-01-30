@@ -1,84 +1,35 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-:root {
-    --primary-color: rgb(48, 48, 97);
-    --secondary-color: rgb(57, 83, 110);
-    --accent1-color: rgb(200, 212, 226);
-    --accent2-color: rgb(205, 205, 237);
+#timer {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111;
 }
 
-.hero {
-    background: url("../images/mountain-hero.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#start-timer {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
-h1 {
-    margin-top: 200px;
-    background-color: var(--primary-color);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+#start-timer:hover {
+  background: #1d4ed8;
 }
 
-.hero p {
-    background-color: var(--secondary-color);
-    color: white;
-    padding: 5px 40px 5px 40px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 25px;
-    margin: 0 20px 90px 20px
-}
-
-.activity-list {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.activities {
-    background-color: var(--accent1-color);
-    padding: 0px 20px 50px 20px;
-}
-
-.activities h2 {
-    margin: 0 20px 50px 20px;
-    padding-top: 50px;
-    color: var(--primary-color);
-}
-
-
-
-.activity img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.bold-paragraph {
-    font-weight: bold;
-}
-
-.about-me img {
-    width: 200px;
-    height: auto;
-    border-radius: 20px;
-}
-
-.about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent2-color);
-    margin: 50px 20px 50px 20px;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 0px var(--primary-color);
+#start-timer:active {
+  transform: scale(0.97);
 }
