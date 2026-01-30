@@ -5,7 +5,7 @@ let time = 5;
 startBtn.addEventListener('click', () => {
   intervalID = setInterval(tick, 1000);
 
-  time = 5;
+  time = 6;
   timerEl.textContent = time;
   
   if (time == 5 || time === 0) {
